@@ -14,7 +14,11 @@
       "Bash(git add .)",
       "Bash(git commit -m \"feat: Add database schema with RLS policies\")",
       "Bash(git push)",
-      "Bash(git init)"
+      "Bash(git init)",
+      "Bash(git branch -M main)",
+      "Bash(git remote add origin https://github.com/sjlee2014/-healthcare-saas.git)",
+      "Bash(git push -u origin main)",
+      "Bash(git commit -m \"feat: Add food database seed data (100 items)\")"
     ],
     "deny": [],
     "ask": []
